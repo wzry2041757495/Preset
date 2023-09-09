@@ -389,6 +389,7 @@
         "Upscaler": "8x_NMKD-Superscale_150000_G",
         "Upscale by": 2,
         "Hires steps": 0,
+        "Denoising strength": 0.4,
         "Hires sampling method": "Use same sampler",
         "CFG Scale": 7
     }
