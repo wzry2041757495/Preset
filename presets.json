@@ -392,5 +392,35 @@
         "Denoising strength": 0.4,
         "Hires sampling method": "Use same sampler",
         "CFG Scale": 7
+    },
+    "\u6781\u6c2a\u5199\u5b9e": {
+        "Prompt": "1girl,solo,braid,twin braids,realistic,brown eyes,smile,black hair,looking at viewer,bare shoulders,lips,long hair,brown hair,upper body,bangs,simple background,portrait,closed mouth,blunt bangs,hair over shoulder,",
+        "Negative prompt": "(worst quality:2),(low quality:2),(normal quality:2),lowres,watermark,badhandv4,ng_deepnegative_v1_75t,( bad-hands-5:0.6),",
+        "Sampling steps": 20,
+        "Sampling method": "Euler",
+        "Width": 512,
+        "Height": 768,
+        "Hires. fix": true,
+        "Upscaler": "R-ESRGAN 4x+",
+        "Upscale by": 2,
+        "Hires steps": 20,
+        "Hires sampling method": "Use same sampler",
+        "Denoising strength": 0.4,
+        "CFG Scale": 7
+    },
+    "majicmix sombre": {
+        "Prompt": "Best quality,masterpiece,ultra high res,(photorealistic:1.4),raw photo,\n1girl,",
+        "Negative prompt": "ng_deepnegative_v1_75t,(badhandv4:1.2),(worst quality:2),(low quality:2),(normal quality:2),lowres,bad anatomy,bad hands,((monochrome)),((grayscale)) watermark,",
+        "Sampling steps": 30,
+        "Sampling method": "Euler a",
+        "Width": 512,
+        "Height": 768,
+        "Hires. fix": false,
+        "Upscaler": "R-ESRGAN 4x+",
+        "Upscale by": 2,
+        "Hires steps": 20,
+        "Hires sampling method": "Use same sampler",
+        "Denoising strength": 0.4,
+        "CFG Scale": 10
     }
 }
